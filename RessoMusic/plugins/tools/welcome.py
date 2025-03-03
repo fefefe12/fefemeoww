@@ -1,11 +1,11 @@
-from SONALI import app
+from RessoMusic import app
 from pyrogram.errors import RPCError, UserAlreadyParticipant, ChatAdminRequired, InviteRequestSent, UserNotParticipant
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton, Message, ChatJoinRequest
 from pyrogram import Client, filters, enums
 from pyrogram.enums import ParseMode, ChatMemberStatus
 from logging import getLogger
-from SONALI.utils.database import add_served_chat, get_assistant, is_active_chat
-from SONALI.misc import SUDOERS
+from RessoMusic.utils.database import add_served_chat, get_assistant, is_active_chat
+from RessoMusic.misc import SUDOERS
 import asyncio
 import random
 import os
